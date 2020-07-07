@@ -26,11 +26,11 @@ c:\NET USE LPT1 \\localhost\shared_printer /PERSISTENT:YES
 user@guanaco:~$ git clone https://github.com/achauque/xPL-printclient.git
 
 user@guanaco:~$ cd xPL-printclient/linux
-user@guanaco:~/xPL-printclient/linux$ python xPL-printclient IP_ADDRESS PORT PRINT_PORT
+user@guanaco:~/xPL-printclient/linux$ python xPL-printclient.py IP_ADDRESS PORT PRINT_PORT
 ```
 
 <strong>example:</strong> <br>
 First check privilege to write device (/dev/usb/lp0)
 ```console
-user@guanaco:~/xPL-printclient/linux$ python xPL-printclient 127.0.0.1 9100 /dev/usb/lp0
+user@guanaco:~/xPL-printclient/linux$ python xPL-printclient.py 127.0.0.1 9100 /dev/usb/lp0
 ```
