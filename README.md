@@ -11,3 +11,9 @@ c:\xPL-printclient\LPT\python xPL-printclient IP_ADDRESS PORT PRINT_PORT
 ```console
 c:\xPL-printclient\LPT\python xPL-printclient 127.0.0.1 9100 LPT1
 ```
+
+<strong>USB to LPT:</strong> <br>
+
+```console
+c:\NET USE LPT1 \\localhost\shared_printer /PERSISTENT:YES
+```
