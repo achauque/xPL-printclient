@@ -1,7 +1,7 @@
 # xPL-printclient
 This module is a interface for xPL-printserver.
 
-# Usage Windows:
+# Usage in Windows:
 
 ```console
 c:\xPL-printclient\LPT\python xPL-printclient IP_ADDRESS PORT PRINT_PORT
